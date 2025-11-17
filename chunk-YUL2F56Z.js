@@ -1,0 +1,1 @@
+import{$a as n,Pb as r,tb as i,ub as a}from"./chunk-KZSY5CHT.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-interactive-menu"]],decls:2,vars:0,template:function(e,m){e&1&&(i(0,"p"),r(1,"interactive-menu works!"),a())},encapsulation:2})};export{c as InteractiveMenu};
