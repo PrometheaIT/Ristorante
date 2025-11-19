@@ -1,0 +1,1 @@
+import{Qb as o,ab as t,ub as a,vb as i}from"./chunk-K5RDB55Y.js";var r=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-financial-report"]],decls:2,vars:0,template:function(e,c){e&1&&(a(0,"p"),o(1,"financial-report works!"),i())},encapsulation:2})};export{r as FinancialReport};

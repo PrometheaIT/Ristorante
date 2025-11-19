@@ -1,1 +1,0 @@
-import{$a as s,Pb as p,tb as r,ub as a}from"./chunk-KZSY5CHT.js";var n=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-supplier-restaurants"]],decls:2,vars:0,template:function(e,u){e&1&&(r(0,"p"),p(1,"supplier-restaurants works!"),a())},encapsulation:2})};export{n as SupplierRestaurants};
