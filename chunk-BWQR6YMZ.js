@@ -1,1 +1,0 @@
-import{Qb as s,ab as a,ub as n,vb as r}from"./chunk-K5RDB55Y.js";var i=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=a({type:e,selectors:[["app-restaurant-detail"]],decls:2,vars:0,template:function(t,l){t&1&&(n(0,"p"),s(1,"restaurant-detail works!"),r())},encapsulation:2})};export{i as RestaurantDetail};
