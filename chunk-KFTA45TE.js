@@ -1,1 +1,0 @@
-import{Tb as o,cb as t,xb as n,yb as r}from"./chunk-UE7YVF6I.js";var s=class a{static \u0275fac=function(e){return new(e||a)};static \u0275cmp=t({type:a,selectors:[["app-reservation-manager"]],decls:2,vars:0,template:function(e,m){e&1&&(n(0,"p"),o(1,"reservation-manager works!"),r())},encapsulation:2})};export{s as ReservationManager};
