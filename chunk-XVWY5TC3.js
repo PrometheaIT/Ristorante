@@ -1,0 +1,16 @@
+import{b as l}from"./chunk-JJFJLBC4.js";import{_ as c,da as u,g as i,n as o}from"./chunk-PX5DELEN.js";var g=class s{supabaseService=u(l);restaurantSubject=new o(null);restaurant$=this.restaurantSubject.asObservable();loadRestaurantById(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("restaurants").select("*").eq("id",t).eq("is_active",!0).single();if(r)throw r;return e}catch(e){return console.error("\u274C Error loading restaurant by ID:",e),null}})}loadRestaurantShifts(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("shifts").select("*").eq("restaurant_id",t).eq("is_active",!0).order("start_time");if(r)throw r;return e||[]}catch(e){return console.error("\u274C Error loading restaurant shifts:",e),[]}})}loadRestaurantDishes(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("dishes").select("*").eq("restaurant_id",t).eq("status","available").order("name");if(r)throw r;return e||[]}catch(e){return console.error("\u274C Error loading restaurant dishes:",e),[]}})}loadRestaurantDishesWithCategories(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("dishes").select(`
+          id,
+          name,
+          description,
+          base_price,
+          delivery_price,
+          takeaway_price,
+          image_url,
+          preparation_time,
+          status,
+          category_id,
+          categories (
+            id,
+            name
+          )
+        `).eq("restaurant_id",t).eq("status","available").order("name");if(r)throw r;return(e||[]).map(a=>{let n=a.categories&&a.categories.length>0?a.categories[0]:null;return{id:a.id,name:a.name,description:a.description,base_price:a.base_price,delivery_price:a.delivery_price,takeaway_price:a.takeaway_price,image_url:a.image_url,preparation_time:a.preparation_time,status:a.status,category_id:a.category_id,category_name:n?n.name:void 0}})}catch(e){return console.error("\u274C Error loading restaurant dishes with categories:",e),this.loadRestaurantDishes(t)}})}loadRestaurantCategories(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("categories").select("*").eq("restaurant_id",t).order("order_index");if(r)throw r;return e||[]}catch(e){return console.error("\u274C Error loading restaurant categories:",e),[]}})}loadRestaurantsByCuisine(t){return i(this,null,function*(){try{let e=this.supabaseService.getSupabaseClient().from("restaurants").select("*").eq("is_active",!0).order("name");t&&(e=e.eq("cuisine_type",t));let{data:r,error:a}=yield e;if(a)throw a;return r||[]}catch(e){return console.error("\u274C Error loading restaurants:",e),[]}})}loadRestaurant(t){return i(this,null,function*(){try{let{data:e,error:r}=yield this.supabaseService.getSupabaseClient().from("restaurants").select("*").eq("id",t).eq("is_active",!0).single();if(r)throw r;return this.restaurantSubject.next(e),e}catch(e){return console.error("\u274C Error loading restaurant:",e),null}})}static \u0275fac=function(e){return new(e||s)};static \u0275prov=c({token:s,factory:s.\u0275fac,providedIn:"root"})};export{g as a};
