@@ -1,1 +1,0 @@
-import{Eb as i,Wa as t,lb as s,mb as o}from"./chunk-PX5DELEN.js";var n=class r{static \u0275fac=function(e){return new(e||r)};static \u0275cmp=t({type:r,selectors:[["app-live-orders"]],decls:2,vars:0,template:function(e,d){e&1&&(s(0,"p"),i(1,"live-orders works!"),o())},encapsulation:2})};export{n as LiveOrders};
