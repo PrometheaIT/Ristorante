@@ -1,0 +1,1 @@
+import{Ib as n,Za as a,ob as r,pb as s}from"./chunk-2FS7XGGJ.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-restaurant-search"]],decls:2,vars:0,template:function(e,i){e&1&&(r(0,"p"),n(1,"restaurant-search works!"),s())},encapsulation:2})};export{c as RestaurantSearch};
