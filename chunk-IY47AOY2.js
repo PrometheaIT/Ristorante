@@ -8,7 +8,8 @@ import{a as h}from"./chunk-PYCM5Q4Y.js";import{b}from"./chunk-CXUZBBYL.js";impor
             image_url,
             status,
             category_id,
-            preparation_time
+            preparation_time,
+            deleted_at
           ),
           category:categories!category_id (
             id,
