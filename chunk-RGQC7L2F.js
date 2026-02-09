@@ -1,1 +1,0 @@
-import{Cb as m,Ta as a,ib as i,jb as p}from"./chunk-25TB2OJR.js";import"./chunk-4ZZIO3ZI.js";var n=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=a({type:t,selectors:[["app-tablemap-view"]],decls:2,vars:0,template:function(e,l){e&1&&(i(0,"p"),m(1,"tablemap-view works!"),p())},encapsulation:2})};export{n as TablemapView};
