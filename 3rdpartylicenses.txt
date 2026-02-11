@@ -1022,7 +1022,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 --------------------------------------------------------------------------------
-Package: @angular/common
+Package: @angular/platform-browser
 License: "MIT"
 
 The MIT License
@@ -1048,7 +1048,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 --------------------------------------------------------------------------------
-Package: @angular/platform-browser
+Package: @angular/common
 License: "MIT"
 
 The MIT License
