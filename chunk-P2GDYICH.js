@@ -1,0 +1,1 @@
+import{Hb as c,Wa as t,lb as o,mb as a}from"./chunk-DU5L5MFQ.js";import"./chunk-4ZZIO3ZI.js";var n=class r{static \u0275fac=function(e){return new(e||r)};static \u0275cmp=t({type:r,selectors:[["app-order-tracker"]],decls:2,vars:0,template:function(e,i){e&1&&(o(0,"p"),c(1,"order-tracker works!"),a())},encapsulation:2})};export{n as OrderTracker};
