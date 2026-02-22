@@ -1,1 +1,0 @@
-import{Ib as o,Va as t,qb as s,rb as i}from"./chunk-KIAVC6JW.js";import"./chunk-RA2WU32H.js";var n=class r{static \u0275fac=function(e){return new(e||r)};static \u0275cmp=t({type:r,selectors:[["app-live-orders"]],decls:2,vars:0,template:function(e,l){e&1&&(s(0,"p"),o(1,"live-orders works!"),i())},encapsulation:2})};export{n as LiveOrders};

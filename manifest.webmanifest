@@ -1,9 +1,11 @@
 {
-  "name": "ristoranteapp",
-  "short_name": "ristoranteapp",
+  "name": "Platea",
+  "short_name": "Platea",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
+  "theme_color": "#7209B7",
+  "background_color": "#FAFAFC",
   "icons": [
     {
       "src": "icons/icon-72x72.png",

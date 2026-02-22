@@ -1,0 +1,1 @@
+import{Ib as n,Va as s,qb as i,rb as p}from"./chunk-5BU4UD4M.js";import"./chunk-RA2WU32H.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-supplier-settings"]],decls:2,vars:0,template:function(e,o){e&1&&(i(0,"p"),n(1,"supplier-settings works!"),p())},encapsulation:2})};export{r as SupplierSettings};
