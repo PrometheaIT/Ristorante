@@ -1,0 +1,1 @@
+import{Cb as r,Db as a,Vb as n,eb as i}from"./chunk-SPW2YRD4.js";import"./chunk-RA2WU32H.js";var o=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=i({type:t,selectors:[["app-reservation-wizard"]],decls:2,vars:0,template:function(e,p){e&1&&(r(0,"p"),n(1,"reservation-wizard works!"),a())},encapsulation:2})};export{o as ReservationWizard};
