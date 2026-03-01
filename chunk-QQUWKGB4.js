@@ -1,0 +1,1 @@
+import{Eb as i,Fb as n,Xb as m,gb as s}from"./chunk-YELKK6D4.js";import"./chunk-RA2WU32H.js";var o=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=s({type:t,selectors:[["app-review-system"]],decls:2,vars:0,template:function(e,a){e&1&&(i(0,"p"),m(1,"review-system works!"),n())},encapsulation:2})};export{o as ReviewSystem};
